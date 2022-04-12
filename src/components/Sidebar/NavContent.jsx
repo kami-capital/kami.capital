@@ -56,7 +56,7 @@ function NavContent() {
           <Box className="branding-header"> 
             <Link href="https://kami.capital/" target="_blank"> 
             <Typography variant="h1" style={{fontWeight:"800"}}> 
-                  KAMI        
+                  KAMI&nbsp;&nbsp;&nbsp;&nbsp; 
                 </Typography>
             </Link>  
           </Box>
