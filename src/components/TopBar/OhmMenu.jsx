@@ -73,7 +73,7 @@ function OhmMenu() {
         aria-describedby={id}
       >
         <SvgIcon component={InfoIcon} color="primary" />
-        <Typography className="ohm-menu-button-text">KAMI</Typography>
+        <Typography className="ohm-menu-button-text">KAMI        </Typography>
       </Button>
 
       <Popper id={id} open={open} anchorEl={anchorEl} placement="bottom-start" transition>
