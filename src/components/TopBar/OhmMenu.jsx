@@ -69,7 +69,7 @@ function OhmMenu() {
         size="large"
         variant="contained"
         color="secondary"
-        title="KAMI"
+        title="KAMI         "
         aria-describedby={id}
       >
         <SvgIcon component={InfoIcon} color="primary" />
