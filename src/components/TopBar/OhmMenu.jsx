@@ -69,11 +69,11 @@ function OhmMenu() {
         size="large"
         variant="contained"
         color="secondary"
-        title="KAMI         "
+        title="KAMI"
         aria-describedby={id}
       >
         <SvgIcon component={InfoIcon} color="primary" />
-        <Typography className="ohm-menu-button-text">KAMI        </Typography>
+        <Typography className="ohm-menu-button-text">KAMI</Typography>
       </Button>
 
       <Popper id={id} open={open} anchorEl={anchorEl} placement="bottom-start" transition>
@@ -83,20 +83,20 @@ function OhmMenu() {
               <Paper className="ohm-menu" elevation={1}>
                 <Box component="div" className="buy-tokens">
                   <Link
-                    href={`https://app.uniswap.org/#/swap?chain=polygon`}
+                    href={`https://app.bogged.finance/avax/swap?tokenIn=AVAX&tokenOut=0x0481AEa99aBFE85a9d4f13425888956Da993A122`}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Button size="large" variant="contained" color="secondary" fullWidth>
                       <Typography align="left">
-                        Buy on Uniswap V3
+                        Buy on Bogged Finance
                         <SvgIcon component={ArrowUpIcon} htmlColor="#A3A3A3" />
                       </Typography>
                     </Button>
                   </Link>
 
                   <Link
-                    href={`https://www.dextools.io/app/polygon/pair-explorer/0xEDdeF578a930DDc6F8Ceef10f4B00829c54686C2`}
+                    href={`https://dexscreener.com/avalanche/0x781655d802670bba3c89aebaaea59d3182fd755d`}
                     target="_blank"
                     rel="noreferrer"
                   >
