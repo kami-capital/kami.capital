@@ -63,7 +63,8 @@ function NavContent() {
             <Box > 
               {address && (
                 <div className="dapp-nav"> 
-                  <Link href={`https://snowtrace.io/address/${address}`} target="_blank">
+                  <Link href={`https://snowtrace.io/address/${0x0481AEa99aBFE85a9d4f13425888956Da993A122
+}`} target="_blank">
                     CONNECTED: {shorten(address)}
                   </Link>
                 </div>
@@ -117,7 +118,7 @@ function NavContent() {
               </Link> 
 
               <Link
-                href="https://app.uniswap.org/#/swap?chain=avax"
+                href="https://app.bogged.finance/avax/swap?tokenIn=AVAX&tokenOut=0x0481AEa99aBFE85a9d4f13425888956Da993A122"
                 target="_blank"
               >
                  <Typography variant="h6" style={{fontWeight:"800"}}>
@@ -126,7 +127,7 @@ function NavContent() {
                 </Typography>
               </Link>
 
-              <Link href="https://kami.gitbook.io" target="_blank">
+              <Link href="https://docs.kami.capital" target="_blank">
                  <Typography variant="h6" style={{fontWeight:"800"}}>
                   <SvgIcon color="primary" component={DocsIcon} />
                   Docs
