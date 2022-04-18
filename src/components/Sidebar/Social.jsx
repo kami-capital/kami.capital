@@ -8,15 +8,11 @@ export default function Social() {
   return (
     <div className="social-row"> 
 
-      <Link href="https://kamicapital.medium.com/" target="_blank">
-        <SvgIcon color="primary" component={Medium} />
-      </Link>
-
-      <Link href="https://twitter.com/kamidaoc" target="_blank">
+      <Link href="https://twitter.com/kami_protocol" target="_blank">
         <SvgIcon color="primary" component={Twitter} />
       </Link>
 
-      <Link href="https://discord.gg/9nKPFw94" target="_blank">
+      <Link href="https://discord.com/invite/aZNhKVWXD2" target="_blank">
         <SvgIcon color="primary" component={Discord} />
       </Link>
     </div>
