@@ -46,7 +46,7 @@ const RELATIVE_RATE = (period) =>  Math.round(((DAILY_RATE/100+1) ** period - 1)
 
 
 export const APYCard = () => {
-  const value = 222222;
+  const value = 153617.50;
    const roi = 2.03067241;
 
   return (

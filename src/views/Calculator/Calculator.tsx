@@ -14,7 +14,7 @@ function Calculator() {
     return state.account.balances && state.account.balances.kami;
   });
   const [kamiAmount, setKamiAmount] = useState(0);
-  const [rewardYield, setRewardYield] = useState(222222.00);
+  const [rewardYield, setRewardYield] = useState(153617.50);
   const [priceAtPurchase, setPriceAtPurchase] = useState(0);
   const [futureMarketPrice, setFutureMarketPrice] = useState(0);
   const [days, setDays] = useState(30);
